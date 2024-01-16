@@ -1,0 +1,195 @@
+
+*{
+    text-decoration: none !important;
+}
+
+.logo{
+    width: 5rem;
+    height: 3.125rem;
+    position: absolute;
+    top: 25%;
+    right: 100%;
+}
+
+.main-h1{
+    font-size: 1.5625rem;
+}
+
+.text{
+    font-size: .625rem;
+}
+
+.home{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+}
+.home:hover{
+    border: 2px solid #00798A;
+}
+
+.items{
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
+
+.items:hover{
+    border: 2px solid #00798A;
+    color: tomato !important;
+}
+
+
+.search input{
+    background-color: #1E202B !important;
+    color: white !important;
+    position: relative;
+    height: 60px;
+}
+
+.search input::placeholder{
+    color: white;
+}
+
+.search button{
+    width: 100px;
+    position: absolute;
+    top: 45.55%;
+    left:80%;
+}
+
+
+
+
+
+.groub{
+    height: 400px;
+    background-image: url("../imgs/banner.png");
+    background-size: 100% 100%;
+}
+
+.header{
+    height: 200px;
+    background-color: #1E202B;
+}
+
+.header .container{
+    position: absolute;
+    top: 60%;
+    left: 100px;
+}
+
+.item1{
+    background-color: #323544 !important;
+    color: white;
+}
+
+.forecast-header .day , .date{
+    color: #BFC1C4;
+}
+
+
+.forecast-content .location{
+    color: #BFC1C4;
+}
+
+.forecast-content .degree .num{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.forecast-content .num span{
+    color: white;
+}
+
+.forecast-content .degree .custom{
+    color: #159AD8;
+}
+
+.groub2 .forecast .forecast-header .day{
+    background-color: #222530;
+}
+
+.groub2 .forecast .degree{
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.forecast .forecast-content small{
+    color: #BFC1C4;
+}
+
+.forecast .forecast-content .custom{
+    color: #159AD8;
+}
+
+
+.groub2{
+    background-color: #262936 !important;
+    color: white;
+}
+
+.groub3 .forecast .forecast-header .day{
+    background-color: #222530;
+}
+
+.groub3{
+    background-color: #323544 !important;
+    color: white;
+}
+
+.groub3 .forecast .degree{
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+
+
+
+
+.footer-area{
+    height: 200px;
+    background-color: #262936;
+}
+
+.footer-area a{
+    color: #0977A6;
+    transition: all 3s;
+}
+
+.footer-area a i{
+    margin-top: 20px;
+    background-color: #1e202b !important;
+    padding: 10px;
+    border: 2px solid #1e202b51;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.footer-area a i:hover{
+    color: white ;
+}
+
+.footer-area a i:hover{
+    background-color: #0977A6 !important;
+}
+
+form input{
+    background-color: #1E202B !important;
+    color: white !important;
+    height: 50px; 
+    position: relative;
+}
+
+form input::placeholder{
+    color: white !important;
+}
+
+form button{
+    width: 100px;
+    border-radius: 100px !important;
+    position: absolute;
+    top: 123%;
+    left: 55%;
+}
